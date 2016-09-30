@@ -41,6 +41,14 @@
       {
         name: "cupcakes",
         quantity: 20
+      },
+      {
+        name: "strawberrys",
+        quantity: 20
+      },
+      {
+        name: "bananas",
+        quantity: 20
       }
     ];
     var alreadyBoughtItems = [];

@@ -1,0 +1,10 @@
+<ul>
+  <li ng-repeat="item in list.found">
+
+    <div class="form-group">
+      <b>{{ item.short_name }}</b>, {{ item.name }}, {{ item.description }}
+
+      <button class="btn btn-danger btn-xs" ng-click="list.removeItem({index: $index});">Narrow It Down For Me!</button>
+    </div>
+  </li>
+</ul>

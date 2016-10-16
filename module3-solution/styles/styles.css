@@ -9,8 +9,15 @@ input[type="text"] {
   float: left;
   margin-left: 10px;
 }
+found-items {
+  display: block;
+  clear: both;
+}
+.error {
+  color: red;
+}
 .loader {
-  display: none;
+  display: block;
   margin-left: 5px;
   font-size: 10px;
   float: left;
